@@ -25,7 +25,7 @@ $(document).ready(function () {
         $.each(response, function (i, obj) {
             myItem += '<div class="col-lg-4"> ';
             myItem += '<div class="card  '+ obj.id +' " id="'+ obj.id +'">';
-            myItem += '<a href="Card.html?id='+obj.id+'"><img class="card-img-top" src="'+ obj.img +'">';
+            myItem += '<a href="card.html?id='+obj.id+'"><img class="card-img-top" src="'+ obj.img +'">';
             myItem += '<div class="card-body">';
             myItem += '<h5 class="card-title">'+obj.title+'</h5>';
             myItem += '<h5 class="card-title">'+obj.price+'</h5>';
